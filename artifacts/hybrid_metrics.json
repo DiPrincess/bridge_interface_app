@@ -1,0 +1,72 @@
+{
+  "wear": {
+    "mae": 0.00031871094873533556,
+    "target_mean": 0.38074900742953727,
+    "n_test": 50878
+  },
+  "risk": {
+    "positive_rate": 0.08003697181556145,
+    "roc_auc": 0.9786839109468357,
+    "accuracy": 0.9829705675008812,
+    "f1_positive": 0.895015618633709,
+    "support_positive": 4065,
+    "support_negative": 41327
+  },
+  "rul": {
+    "mae_years": 2.6677479870328993,
+    "n_test": 5212,
+    "target_mean_years": 4.0145817344589405
+  },
+  "feature_cols": [
+    "age",
+    "adt",
+    "length",
+    "main_spans",
+    "deck_condition",
+    "super_condition",
+    "sub_condition",
+    "min_condition",
+    "mean_condition",
+    "delta_deck",
+    "delta_super",
+    "delta_sub",
+    "visual_severity",
+    "damage_area_ratio_union",
+    "damage_perimeter_ratio",
+    "largest_component_ratio",
+    "components_count",
+    "component_density_per_100kpx",
+    "mean_width_px",
+    "max_width_px",
+    "length_proxy_px",
+    "fragmentation_index",
+    "elongation_proxy"
+  ],
+  "tabular_feature_cols": [
+    "age",
+    "adt",
+    "length",
+    "main_spans",
+    "deck_condition",
+    "super_condition",
+    "sub_condition",
+    "min_condition",
+    "mean_condition",
+    "delta_deck",
+    "delta_super",
+    "delta_sub"
+  ],
+  "visual_feature_cols": [
+    "visual_severity",
+    "damage_area_ratio_union",
+    "damage_perimeter_ratio",
+    "largest_component_ratio",
+    "components_count",
+    "component_density_per_100kpx",
+    "mean_width_px",
+    "max_width_px",
+    "length_proxy_px",
+    "fragmentation_index",
+    "elongation_proxy"
+  ]
+}
